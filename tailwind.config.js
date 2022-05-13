@@ -4,7 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'imfell-sc': ['IM Fell English SC', 'serif'],
+      'imfell': ['IM Fell English', 'serif'],
+    },
+    extend: {
+      backgroundImage: {
+        'hero': "url('/background.jpeg')",
+      },
+    },
   },
   plugins: [],
 }
