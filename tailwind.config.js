@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('/background.jpeg')",
+        'gold': "url('/gold.png')",
       },
     },
   },
